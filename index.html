@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>Little House Coffee Menu</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,8 +64,12 @@ li { min-width: 0; }
 .extras strong { color: var(--fg); }
 footer { margin-top: 28px; text-align: center; color: var(--muted); font-size: 0.85rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; }
 </style>
 
+</head>
+<body>
 <div class="wrap">
   <header>
     <div class="logo" role="img" aria-label="Little House Coffee logo, a hand-drawn house with two chimneys"></div>
@@ -173,3 +183,5 @@ footer { margin-top: 28px; text-align: center; color: var(--muted); font-size: 0
   window.addEventListener("scroll", onScroll, { passive: true });
 })();
 </script>
+</body>
+</html>
